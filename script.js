@@ -26,29 +26,5 @@ if (window.innerWidth < 768) {
 	});
 }
 
-// toggle theme
 
-// const themeBTN = document.querySelector(".nav__theme-btn");
-// const body = document.querySelector(".dark")
 
-// themeBTN.addEventListener('click', ()=>{
-// let bodyClass =document.body.className
-// if(bodyClass ="dark"){
-
-// 	document.body.className =bodyClass
-// 	// change toggle button
-// 	// themeBTN.innerHTML="<ion-icon name="sunny-outline"></ion-icon>"
-// }else{
-// 	{
-
-// 	bodyClass.classList.remove("dark")
-// 	document.body.className = bodyClass
-// 	}
-// }
-// })
-
-const themeBTN = document.querySelector(".nav__theme-btn");
-const body = document.querySelector(".dark-mode");
-themeBTN.addEventListener('click', ()=>{
-body.classList.toggle("active")
-})
