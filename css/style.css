@@ -393,8 +393,9 @@ section.contact {
 	.nav__toggle-close {
 		display: inline-block;
 		font-size: 1.8rem;
-		color: var(--color-gray-900);
+		/* color: var(--color-gray-900); */
 		background: transparent;
+		color:white;
 	}
 
 	.nav__toggle-close {
