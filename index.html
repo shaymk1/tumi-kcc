@@ -7,7 +7,7 @@
 		<!-- 
       -custom css
            -->
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="./css/style.css" />
 		<!-- 
       - preload images
            -->
@@ -24,33 +24,29 @@
 			<nav>
 				<div class="container nav__container">
 					<div class="logo">
-						<a href="#hero" class="menu-link">
-							<img src="assets/images/yellow.png" alt="logo image" />
+						<a href="#about" class="menu-link">
+							<h1>KCC</h1>
 						</a>
 					</div>
 					<ul class="nav__menu">
 						<li>
-							<a href="#hero" class="menu-link">Home</a>
-						</li>
-						<li>
 							<a href="#about" class="menu-link">About</a>
 						</li>
-						<!-- <li>
-							<a href="#experience" class="menu-link">Experience</a>
-						</li> -->
-						<li>
-							<a href="#projects" class="menu-link">Projects</a>
-						</li>
+					
 						<li>
 							<a href="#contact" class="menu-link">Contact</a>
+						</li>
+
+                        <li>
+							<a href="recipe.html" class="menu-link">Recipe</a>
 						</li>
 					</ul>
 
 					<!-- hamburger buttons -->
 					<div class="nav__buttons">
-						<button class="nav__theme-btn">
+						<!-- <button class="nav__theme-btn">
 							<ion-icon name="moon-outline"></ion-icon>
-						</button>
+						</button> -->
 						<button class="nav__toggle-open">
 							<ion-icon name="menu-outline"></ion-icon>
 						</button>
@@ -63,8 +59,112 @@
 		</header>
 
 
+        <main>
+
+		   	<!-- ----------
+			about section
+		 --------->
+			<section class="about" id="about">
+				<div class="container about__container">
+                    <div class="about__details">
+						<h1>Kevin Coockie Company</h1>
+						<div class="about__cards">
+							<p>
+								Every cookie made at the Kevin Cookie company is crafted with only the finest ingredients.
+                                Butter from grass fed cows. Unbleached flour with the best flavor and textures. Organic sugar 
+                                only from India. Eggs from chickens that listen to classical music. 
+                                Even our water is special. It comes from the Cascade Mountain springs that we hike up to retrieve.
+                                Baking is our passion and we take it very seriously.
+							</p>
+
+							
+							<a
+								href="recipe.html"
+								class="btn secondary"
+								download
+								target="_blank"
+								><ion-icon name="download-outline"></ion-icon>Download Recipe</a
+							>
+						</div>
+					</div>
+					<div class="about__image">
+						<!-- for png image optimization -->
+						<picture>
+							<source
+								type="./assets/images.webp"
+								srcset="
+								./assets/images.webp?width= 100 100w,
+								./assets/images.webp?width= 200 200w,
+								./assets/images.webp?width= 300 300w,
+								./assets/images.webp?width= 400 400w,
+								"
+							/>
+							<img
+								src="./images/kcc.png"
+								alt="about-image"
+								loading="lazy"
+								srcset="
+								./images.webp?width= 100 100w,
+								./images.webp?width= 200 200w,
+								./images.webp?width= 300 300w,
+								./images.webp?width= 400 400w,
+								"
+								sizes="(max-width:100%) 100vw, 50vw"
+							/>
+						</picture>
+					</div>
+					
+				</div>
+			</section>
 
 
+            		<!-- ----------
+			Contact section
+		 --------->
+			<section class="contact" id="contact">
+				<h1>Contact me</h1>
+				<p class="sub-heading">Please get in touch!</p>
+				<div class="container contact__container">
+					<ul class="contact__list">
+						<li>
+							<a
+								href="mailto:mkekae@gmail.com"
+								target="_blank"
+								class="contact__list-item"
+							>
+								<ion-icon name="mail-outline"></ion-icon>
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://linkedin.com"
+								target="_blank"
+								class="contact__list-item"
+							>
+                            <ion-icon name="logo-instagram"></ion-icon>
+							</a>
+						</li>
+
+						<li>
+							<a
+								href="https://github.com/shaymk1"
+								target="_blank"
+								class="contact__list-item"
+							>
+                            <ion-icon name="logo-facebook"></ion-icon>
+							</a>
+						</li>
+					</ul>
+
+					
+					<small class="small"
+						>&copy All rights reserved |
+						<span class="name">Tumi Makgabo</span></small
+					>
+				</div>
+			</section>
+        
+        </main>
 
         <!-- ----------
 			script section
