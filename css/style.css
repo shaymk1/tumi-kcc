@@ -290,6 +290,7 @@ nav {
 
 section.contact {
 	background: var(--color-primary);
+	/* background-image: url("./images/bg.jpg"); */
 }
 
 .contact h1,
