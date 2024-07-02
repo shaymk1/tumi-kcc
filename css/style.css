@@ -84,9 +84,9 @@ html {
 }
 
 body {
-	
+	 
 	font-family: "Poppins", sans-serif;
-	background-color: var(--color-gray-100);
+	background-color: var(--color-gray-100); 
 	color: var(--color-gray-800);
 	line-height: 1.7;
 	font-weight: 300;
@@ -290,10 +290,12 @@ nav {
 \*-----------------------------------*/
 
 section.contact {
-	background: var(--color-primary); 
-	/* background-image: url("./images/bg.jpg");
+	/* background: var(--color-primary);  */
+
+	background-image: url("../images/bg.jpg");
 	background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
+	
 }
 
 .contact h1,
