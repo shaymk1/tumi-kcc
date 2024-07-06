@@ -263,7 +263,7 @@ nav {
     margin-bottom: 1rem;   
 }
 
-ol li{
+ul li{
     list-style-type: square;
 }
 
@@ -273,7 +273,7 @@ ol li{
     margin-bottom: .5rem;
 }
 
-ul span{
+ol span{
     font-weight: 600;
 }
 
